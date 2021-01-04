@@ -25,6 +25,13 @@ mongoose.connection.on("error", function (err) {
 //end of database
 
 //api call
+app.get("/", function (request, response) {
+  try {
+    response.status(200).json({ message: "ok" });
+  } catch (error) {
+    response.status(500).json({ error: error });
+  }
+});
 app.post("/article/new", function (request, response) {
   var newArticle = new Article(request.body);
   newArticle.save(function (err, data) {
