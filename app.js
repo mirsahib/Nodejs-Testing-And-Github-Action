@@ -3,6 +3,8 @@ const express = require("express");
 const Article = require("./article.model");
 const bodyParser = require("body-parser");
 
+require("dotenv").config();
+
 const app = express();
 const server = http.Server(app);
 
