@@ -6,6 +6,12 @@ const request = require("supertest"); // needed to make API requests
 
 describe("When the article CRUD server is running", () => {
   // Add individual test cases
+  it("should return 200 response if GET request to '/'", async () => {
+    const res = await request(app).get("/");
+    expect(res.status).toBe(200);
+    expect(res.body.message).toBe("ok");
+  });
+
   it("should return 200 response if POST request receives proper article data", async () => {
     const res = await request(app)
       .post("/article/new")
