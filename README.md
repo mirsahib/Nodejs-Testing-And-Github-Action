@@ -49,4 +49,4 @@ npm run development
 - Model schema is in `article.model.js` file
 - Github Action build is in `.github/workflows/node_ci.yml` file
 
-## Workshop Information : http://www.tech-dojo.org/#!/events/5fed680b58177c00043778ef
+Workshop Information : http://www.tech-dojo.org/#!/events/5fed680b58177c00043778ef
