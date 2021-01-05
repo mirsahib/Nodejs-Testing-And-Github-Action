@@ -2,7 +2,7 @@
 
 ## Description
 
-A repository for the workshop organized by [tech-dojo](http://www.tech-dojo.org/#!/) on how to add test code and integrate CI/CD for a Node app using Jest and GitHub actions.
+A repository for the workshop organized by [tech-dojo](http://www.tech-dojo.org/#!/) on how to add test code and integrate CI/CD for a Node app using [Jest](https://jestjs.io/) and [GitHub actions](https://docs.github.com/en/free-pro-team@latest/actions).
 
 ## Heroku
 
@@ -49,4 +49,6 @@ npm run development
 - Model schema is in `article.model.js` file
 - Github Action build is in `.github/workflows/node_ci.yml` file
 
-Workshop Information : http://www.tech-dojo.org/#!/events/5fed680b58177c00043778ef
+## Workshop Information : [Link](http://www.tech-dojo.org/#!/events/5fed680b58177c00043778ef)
+
+## Tutorial : [Link](https://buddy.works/tutorials/author/shama-hoque)
